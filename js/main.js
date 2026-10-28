@@ -1,8 +1,8 @@
 // ---------- stats (niveau 1 tot 5, pas aan naar de waarheid) ----------
 const stats = [
   { naam: "Python", niveau: 3 },
-  { naam: "HTML", niveau: 3 },
-  { naam: "CSS", niveau: 3 },
+  { naam: "HTML", niveau: 2 },
+  { naam: "CSS", niveau: 2 },
   { naam: "JavaScript", niveau: 2 },
 
 ];
