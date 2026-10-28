@@ -1,10 +1,10 @@
 // ---------- stats (niveau 1 tot 5, pas aan naar de waarheid) ----------
 const stats = [
-  { naam: "Elektronica", niveau: 3 },
-  { naam: "MicroPython", niveau: 3 },
+  { naam: "Python", niveau: 3 },
   { naam: "HTML", niveau: 2 },
   { naam: "CSS", niveau: 2 },
-  { naam: "Wiskunde", niveau: 4 },
+  { naam: "JavaScript", niveau: 2 },
+
 ];
 
 const $ = (id) => document.getElementById(id);
