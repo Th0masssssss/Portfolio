@@ -25,7 +25,7 @@ const io = new IntersectionObserver((items) => {
 }, { threshold: 0.4 });
 document.querySelectorAll(".bar i").forEach((b) => io.observe(b));
 
-// ---------- lobby / contact ----------
+// ---------- chat / contact ----------
 const EMAIL = "thomas.roelandt@outlook.be";
 let missie = "Vraag";
 
@@ -35,7 +35,7 @@ function bouw() {
 
   const esc = (t) => t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
   $("logtxt").innerHTML =
-    `<span class="k">[SYSTEEM]</span> lobby geopend\n` +
+    `<span class="k">[SYSTEEM]</span> chat geopend\n` +
     `<span class="k">[SYSTEEM]</span> wachten op speler...\n` +
     `<span class="k">[SPELER]</span> ${esc(naam) || "..."}\n` +
     `<span class="k">[MISSIE]</span> ${esc(missie)}\n` +
